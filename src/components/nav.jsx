@@ -1,41 +1,9 @@
 import logo from "../assets/logo/logoNutri.png";
 import img_Servicios from '../assets/img/contactanos.png';
 import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      {/* <div className="navbar navEdit">
-        <div className="navbar-brand">
-          <img className="navbar-item logoNav" src={logo} alt="logo" />
-        </div>
-        <div className="navbar-menu">
-          <div className="navbar-start">
-            <a href="" className="navbar-item">
-              Quienes Somos
-            </a>
-            <a href="" className="navbar-item">
-              Nuestros Productos
-            </a>
-            <a href="" className="navbar-item">
-              Nuestros Clientes
-            </a>
-          </div>
-          <div className="navbar-end">
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Contactanos</a>
-
-            <div className="navbar-dropdown">
-              <a className="navbar-item">About</a>
-              <a className="navbar-item">Jobs</a>
-              <a className="navbar-item">Contact</a>
-              <hr className="navbar-divider" />
-              <a className="navbar-item">Report an issue</a>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div> */}
       <nav
       
         className="navbar bg_Nav"
