@@ -21,7 +21,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link to={"/"}>
+            <Link to={"/ActivFisica"}>
               <span className="icon is-small">
                 <i className="fas fa-music" aria-hidden="true"></i>
               </span>

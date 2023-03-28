@@ -62,7 +62,7 @@ function NavBar() {
 
         <div id="desplegar" className="navbar-menu">
           <div className="navbar-start">
-            <Link to={'/QuienesSomos'} className="navbar-item selectBtn">
+            <Link to={'/'} className="navbar-item selectBtn">
               Quienes somos
             </Link>
             <div className="navbar-item has-dropdown is-hoverable">

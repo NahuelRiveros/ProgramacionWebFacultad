@@ -19,14 +19,14 @@ function App() {
       <NavBar>
       </NavBar>
       <Routes>
-          <Route path='/QuienesSomos' element={<QuienesSomos/>}></Route>
+          <Route path='/' element={<QuienesSomos/>}></Route>
           <Route path='/ProductosAlimentos' element={<ProductosAlimentos/>}></Route>
           <Route path='/ActividadFisica' element={<ActividaFis/>}></Route>
           <Route path='/CuidMedAmbiente' element={<CuidMedAmbiente/>}></Route>
           <Route path='/Contactanos' element={<Contactanos/>}></Route>
           <Route path='/ClientOpinan' element={<ClientOpinan/>}></Route>
           <Route path='/CalidadVida' element={<CalidadVida/>}></Route>
-          <Route path='/' element={<ActvFisica/>}></Route>
+          <Route path='/ActivFisica' element={<ActvFisica/>}></Route>
           <Route path='/PequeAcciones' element={<PequeAcciones/>}></Route>
       </Routes>
       <Footer>
