@@ -1,0 +1,74 @@
+.bg_Nav{
+    background: rgb(60, 192, 192) !important;
+    position: sticky !important;
+    
+}
+li {
+list-style-type:circle;
+}
+.imgtest {
+    margin: auto !important;
+    max-width: 80% !important;
+    height: auto !important;
+}
+.listText {
+    list-style: none;
+}
+.logoEmpresa{
+    border-radius: 7px; 
+}
+.columEdit {
+    border: 2px rgb(0, 0, 0) solid;
+    background: rgb(119, 12, 12);
+}
+.navbar{
+    background: rgba(0, 255, 255, 0.5);
+}
+.selectBtn{
+    transition: 0s;
+}
+.selectBtn:hover {
+    background-color: rgba(140, 175, 175, 0.5) !important;
+    color: black !important;
+    border: 1px solid rgba(140, 175, 175, 0.5) !important;
+    border-radius: 1rem !important;
+}
+
+.footer-padding {
+    padding: 1px;
+}
+.bg_Footer { background-color: rgb(140, 175, 175);
+
+}
+.textEmpresa {
+    padding-left: 30% !important;
+}
+
+.bg-card {
+    background: rgb(166, 209, 209) !important;
+}
+
+.OpnClientBody{
+    background-color: rgb(152, 192, 192) !important;
+}
+.OpnClientHeader {
+    background-color: rgb(128, 77, 77) !important;
+}
+
+@media screen and (min-width: 768px){
+
+    .vid_Cuidado {
+        padding-left: 18%;
+    
+    }
+}
+
+.textClientOpn{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.textCursos {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
