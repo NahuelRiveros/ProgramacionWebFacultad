@@ -1,4 +1,4 @@
-// import logo from "../assets/logo/logoNutri.png";
+import logo from "../assets/logo/logoNutri.png";
 import img_Servicios from '../assets/img/contactanos.png';
 import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
@@ -44,7 +44,7 @@ function NavBar() {
       >
         <div className="navbar-brand">
           <Link className="navbar-item " to={"/"}>
-            <img className="logoEmpresa" src={''} alt='logo'/>
+            <img className="logoEmpresa" src={logo} alt='logo'/>
           </Link>
 
           <a
