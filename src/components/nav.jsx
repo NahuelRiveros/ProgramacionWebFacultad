@@ -1,6 +1,7 @@
 import logo from "../assets/logo/logoNutri.png";
 import img_Servicios from '../assets/img/contactanos.png';
 import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <div>
