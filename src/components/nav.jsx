@@ -44,7 +44,7 @@ function NavBar() {
       >
         <div className="navbar-brand">
           <Link className="navbar-item " to={"/"}>
-            <img className="logoEmpresa" src={logo} />
+            <img className="logoEmpresa" src={logo} alt='logo'/>
           </Link>
 
           <a
